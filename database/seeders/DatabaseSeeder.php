@@ -23,6 +23,8 @@ class DatabaseSeeder extends Seeder
 
         $Admin->assignRole('admin');
 
+
+
         // spatie library default admin user after seeding "php artisan migrate:fresh --seed"
         // to get the library you need 3 to 4 executable commands->
         // "composer require spatie/laravel-permission" 2nd command -> "php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
