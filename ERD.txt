@@ -14,6 +14,6 @@ https://editor.plantuml.com
 
 dockercommand run:
 
-
 docker run --name 0-meeting -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=0-meeting   -p 3306:3306 -d  mysql:latest
 
+naam van je project aanpassen bi name en database zodat je de correcte naam hebt.
